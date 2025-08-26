@@ -9,8 +9,19 @@ marp: true
 # Contents
 
 - ## Metrics
-    - ## RAG Metrics
+    - ## RAG
         - ## Answer Relevancy
+        - ## Faithfulness
+        - ## Contextual Precision
+        - ## Contextual Recall
+
+---
+
+# Contents (Continued)
+
+- ## Metrics (Continued)
+    - ## RAG (Continued)
+        - ## Contextual Relevancy
 
 ---
 
@@ -159,5 +170,3 @@ test_case = LLMTestCase(
 
 evaluate(test_cases=[test_case], metrics=[metric])
 ```
-
----
